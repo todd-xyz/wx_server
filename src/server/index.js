@@ -8,7 +8,7 @@ const locationEvents = require('./routers/locationevents');
 const app = new Koa();
 app.proxy=true;
 
-const PORT = process.env.PORT || 1337;
+const PORT = process.env.PORT || 3000;
 
 app.use(bodyParser());
 app.use(checkRouter.routes());
