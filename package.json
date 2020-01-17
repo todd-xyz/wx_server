@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./src/server/index.js"
   },
   "author": "",
   "license": "ISC",
@@ -14,5 +14,8 @@
     "raw-body": "^2.4.1",
     "sha1": "^1.1.1",
     "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "koa-bodyparser": "^4.2.1"
   }
 }
